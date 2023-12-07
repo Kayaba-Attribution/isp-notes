@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&display=swap');
+
+
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Goudy Bookletter 1911', serif;
+	background-color: #000000;
+	
+
+}
+
+a, h1 {
+	transition: color 0.3s ease-in-out;
+	color: #3b362f;
+	font-size: 1.5em;
+}
+
+a:hover, h1:hover {
+	color: #e0943d;
+}
+​
+
+canvas {
+	display: block;
+
+}
+
+.p5Canvas {
+	border: 1px solid red;
+	background-color: #b4b2b0;
+
+}
